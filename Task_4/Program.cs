@@ -10,7 +10,7 @@ Console.WriteLine("Введите число b: ");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число c: ");
 int c = Convert.ToInt32(Console.ReadLine());
-// while (a == max;)
+ // while (a == max;)
 if (a > b & a > c)
 {
     Console.Write($"Максимальное введенное число: {a}");
