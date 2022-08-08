@@ -11,16 +11,16 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число c: ");
 int c = Convert.ToInt32(Console.ReadLine());
 // while (a == max;)
-    if (a > b & a > c) 
-    {
-        Console.Write($"Максимальное введенное число: {a}");
-    }
-    else
-        if (b < c) 
-        {
-            Console.Write($"Максимальное введенное число: {c}");
-        }
-        else
-        {
-            Console.Write($"Максимальное введенное число: {b}");
-        }
+if (a > b & a > c)
+{
+    Console.Write($"Максимальное введенное число: {a}");
+}
+else
+    if (b < c)
+{
+    Console.Write($"Максимальное введенное число: {c}");
+}
+else
+{
+    Console.Write($"Максимальное введенное число: {b}");
+}
